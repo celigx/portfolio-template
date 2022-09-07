@@ -1,0 +1,76 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: #313235;
+  text-decoration: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.material-symbols-rounded {
+  font-size: 36px;
+}
+
+.navbar {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  height: 72px;
+}
+.navbar .brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 16px;
+  z-index: 99;
+}
+.navbar .links-container {
+  background: #ffa6a6;
+  position: fixed;
+  height: calc(100vh - 72px);
+  width: 100%;
+  -webkit-clip-path: circle(0% at 100% 0%);
+          clip-path: circle(0% at 100% 0%);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  padding-top: 72px;
+}
+.navbar .links-container a {
+  color: #313235;
+  padding: 16px 16px;
+  font-size: 16px;
+  display: block;
+}
+.navbar .menu {
+  color: #313235;
+  display: -webkit-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 2;
+  padding: 0 16px;
+}
+.navbar .show {
+  -webkit-clip-path: circle(100%);
+          clip-path: circle(100%);
+}

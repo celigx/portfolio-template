@@ -1,1 +1,60 @@
+$primary: #7052E0
+$primary-hover: #8870E1
+$primary-text: #313235
 
+*
+  font-family: 'Roboto', sans-serif
+
+body
+  margin: 0
+
+a
+  color: $primary-text
+  text-decoration: none
+
+.no-scroll
+  overflow: hidden
+
+.material-symbols-rounded
+  font-size: 36px
+
+// Navbar
+.navbar
+  background: #fff
+  display: flex
+  justify-content: space-between
+  position: relative
+  overflow: hidden
+  height: 72px
+
+  .brand
+    display: flex
+    align-items: center
+    padding-left: 16px
+    z-index: 99
+
+  .links-container
+    background: #ffa6a6
+    position: fixed
+    height: calc(100vh - 72px)
+    width: 100%
+    clip-path: circle(0% at 100% 0%)
+    transition: all 0.4s ease
+    padding-top: 72px
+
+    a
+      color: $primary-text
+      padding: 16px 16px
+      font-size: 16px
+      display: block
+
+  .menu
+    color: $primary-text
+    display: -webkit-box
+    align-items: center
+    justify-content: center
+    z-index: 2
+    padding: 0 16px
+
+  .show
+    clip-path: circle(100%)
