@@ -97,7 +97,7 @@ a
 
     .text
       color: #6DDDE7
-      font-size: 72px
+      font-size: 52px
       font-weight: 900
       position: relative
 
@@ -114,3 +114,38 @@ a
       position: absolute
       right: -50px
       bottom: -50px
+
+      .circle-big
+        animation: rotate 60s infinite linear
+        transform-box: fill-box
+        transform-origin: center
+
+      .circle-small
+        animation: scale 10s infinite linear
+        transform-box: fill-box
+        transform-origin: center
+
+      .rectangle
+        animation: rotate-rect 10s infinite linear reverse
+        transform-box: fill-box
+        transform-origin: center
+
+@keyframes rotate
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
+
+@keyframes scale
+  0%
+    transform: scale(1)
+  50%
+    transform: scale(2)
+  100%
+    transform: scale(1)
+
+@keyframes rotate-rect
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
