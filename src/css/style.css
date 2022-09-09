@@ -315,6 +315,74 @@ a {
   font-size: 16px;
 }
 
+.contact {
+  color: #313235;
+  padding: 20px 16px;
+}
+.contact .heading {
+  color: #313235;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.contact .email {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.contact .phone {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.contact .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.contact .links .link {
+  margin-right: 20px;
+}
+.contact .links .link:last-child {
+  margin-right: 0;
+}
+.contact .links .link .fa-brands {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.contact .links .link .fa-brands:hover {
+  opacity: 0.8;
+}
+.contact .links .link .fa-github {
+  background: #F1F1F1;
+  font-size: 32px;
+}
+.contact .links .link .fa-dribbble {
+  color: #ED4F8D;
+  background: #FBEEF7;
+  font-size: 32px;
+}
+.contact .links .link .fa-linkedin-in {
+  color: #0A66C2;
+  background: #EEF3FB;
+  font-size: 32px;
+}
+
 @-webkit-keyframes rotate {
   0% {
     -webkit-transform: rotate(0deg);
