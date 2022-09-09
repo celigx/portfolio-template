@@ -168,6 +168,9 @@ a {
   padding: 20px;
   margin-bottom: 20px;
 }
+.portfolio .project:last-child {
+  margin-bottom: 0;
+}
 .portfolio .project .container-title {
   margin-bottom: 40px;
 }
@@ -262,6 +265,9 @@ a {
 .skills .container {
   margin-bottom: 20px;
 }
+.skills .container:last-child {
+  margin-bottom: 0;
+}
 .skills .container .heading {
   font-size: 22px;
   font-weight: 700;
@@ -270,6 +276,9 @@ a {
 .skills .container .item {
   font-size: 16px;
   margin-bottom: 10px;
+}
+.skills .container .item:last-child {
+  margin-bottom: 0;
 }
 
 .certificates {
@@ -288,6 +297,9 @@ a {
 }
 .certificates .container {
   margin-bottom: 20px;
+}
+.certificates .container:last-child {
+  margin-bottom: 0;
 }
 .certificates .container .heading {
   font-size: 22px;
