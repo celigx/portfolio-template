@@ -81,7 +81,7 @@ a {
 }
 
 .hero {
-  padding: 16px;
+  padding: 20px 16px;
 }
 .hero .container-one {
   margin-bottom: 40px;
@@ -148,6 +148,101 @@ a {
   transform-box: fill-box;
   -webkit-transform-origin: center;
           transform-origin: center;
+}
+
+.portfolio {
+  padding: 20px 16px;
+}
+.portfolio .container-heading {
+  margin-bottom: 40px;
+}
+.portfolio .container-heading .heading {
+  color: #313235;
+  font-size: 48px;
+}
+.portfolio .container-heading .subheading {
+  color: #A69CCA;
+}
+.portfolio .project {
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.portfolio .project .container-title {
+  margin-bottom: 40px;
+}
+.portfolio .project .container-title .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-bottom: 16px;
+}
+.portfolio .project .container-title .title {
+  color: #313235;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.portfolio .project .container-title .text {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.portfolio .project .container-title .projects-btn {
+  color: #313235;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.portfolio .project .img-container {
+  margin-bottom: 0;
+}
+.portfolio .project .img-container img {
+  width: 100%;
+  border-radius: 16px;
+}
+.portfolio .p-one {
+  background: #FCF8F5;
+}
+.portfolio .p-one .icon {
+  background: #F7D8AE;
+}
+.portfolio .p-one .text {
+  color: #D19542;
+}
+.portfolio .p-two {
+  background: #F4F8F9;
+}
+.portfolio .p-two .icon {
+  background: #92E2F5;
+}
+.portfolio .p-two .text {
+  color: #2DABC9;
+}
+.portfolio .p-three {
+  background: #F5F7FB;
+}
+.portfolio .p-three .icon {
+  background: #8FB2F8;
+}
+.portfolio .p-three .text {
+  color: #275ABF;
+}
+.portfolio .p-four {
+  background: #F9FDF2;
+}
+.portfolio .p-four .icon {
+  background: #D3FA8E;
+}
+.portfolio .p-four .text {
+  color: #88C220;
 }
 
 @-webkit-keyframes rotate {

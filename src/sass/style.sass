@@ -1,6 +1,7 @@
 $primary: #7052E0
 $primary-hover: #8870E1
 $primary-text: #313235
+$subheading-text: #A69CCA
 $primary-text-hover: #555658
 
 *
@@ -66,7 +67,7 @@ a
 
 // Hero
 .hero
-  padding: 16px
+  padding: 20px 16px
 
   .container-one
     margin-bottom: 40px
@@ -129,6 +130,95 @@ a
         animation: rotate-rect 10s infinite linear reverse
         transform-box: fill-box
         transform-origin: center
+
+// Portfolio
+.portfolio
+  padding: 20px 16px
+
+  .container-heading
+    margin-bottom: 40px
+
+    .heading
+      color: $primary-text
+      font-size: 48px
+
+    .subheading
+      color: $subheading-text
+
+  .project
+    border-radius: 16px
+    padding: 20px
+    margin-bottom: 20px
+
+    .container-title
+      margin-bottom: 40px
+
+      .icon
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 50px
+        height: 50px
+        border-radius: 50px
+        margin-bottom: 16px
+
+      .title
+        color: $primary-text
+        font-size: 36px
+        font-weight: 600
+        margin-bottom: 16px
+
+      .text
+        font-size: 20px
+        margin-bottom: 40px
+
+      .projects-btn
+        color: $primary-text
+        font-weight: 600
+        text-transform: uppercase
+
+    .img-container
+      margin-bottom: 0
+
+      img
+        width: 100%
+        border-radius: 16px
+
+  .p-one
+    background: #FCF8F5
+
+    .icon
+      background: #F7D8AE
+
+    .text
+      color: #D19542
+
+  .p-two
+    background: #F4F8F9
+
+    .icon
+      background: #92E2F5
+
+    .text
+      color: #2DABC9
+
+  .p-three
+    background: #F5F7FB
+
+    .icon
+      background: #8FB2F8
+
+    .text
+      color: #275ABF
+
+  .p-four
+    background: #F9FDF2
+
+    .icon
+      background: #D3FA8E
+
+    .text
+      color: #88C220
 
 @keyframes rotate
   0%
