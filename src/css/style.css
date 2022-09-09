@@ -245,6 +245,33 @@ a {
   color: #88C220;
 }
 
+.skills {
+  color: #313235;
+  padding: 20px 16px;
+}
+.skills .container-heading {
+  margin-bottom: 40px;
+}
+.skills .container-heading .heading {
+  color: #313235;
+  font-size: 48px;
+}
+.skills .container-heading .subheading {
+  color: #A69CCA;
+}
+.skills .container {
+  margin-bottom: 20px;
+}
+.skills .container .heading {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.skills .container .item {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
 @-webkit-keyframes rotate {
   0% {
     -webkit-transform: rotate(0deg);
