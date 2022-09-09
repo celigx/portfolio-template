@@ -272,6 +272,37 @@ a {
   margin-bottom: 10px;
 }
 
+.certificates {
+  color: #313235;
+  padding: 20px 16px;
+}
+.certificates .container-heading {
+  margin-bottom: 40px;
+}
+.certificates .container-heading .heading {
+  color: #313235;
+  font-size: 48px;
+}
+.certificates .container-heading .subheading {
+  color: #A69CCA;
+}
+.certificates .container {
+  margin-bottom: 20px;
+}
+.certificates .container .heading {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.certificates .container .item {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.certificates .container .date {
+  color: #A69CCA;
+  font-size: 16px;
+}
+
 @-webkit-keyframes rotate {
   0% {
     -webkit-transform: rotate(0deg);
