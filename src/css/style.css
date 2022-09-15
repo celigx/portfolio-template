@@ -601,6 +601,8 @@ a {
             clip-path: none;
     padding-top: unset;
     padding-right: 40px;
+    -webkit-transition: none;
+    transition: none;
   }
   .navbar .links-container .links {
     display: -webkit-box;
@@ -686,5 +688,12 @@ a {
 .footer {
     max-width: 1440px;
     margin: 0 auto;
+  }
+
+  .navbar .brand {
+    padding: 0;
+  }
+  .navbar .links-container {
+    padding: 0;
   }
 }
