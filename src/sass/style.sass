@@ -451,6 +451,9 @@ a
       display: flex
       justify-content: space-between
 
+      .col
+        margin-bottom: 0
+
   .certificates
     padding: $padding-md
 
@@ -465,3 +468,95 @@ a
 
   .footer
     padding: 16px 40px
+
+// Desktop
+@media screen and ( min-width: 1024px )
+  .navbar
+
+    .links-container
+      display: flex
+      align-items: center
+      background: none
+      position: unset
+      height: auto
+      width: auto
+      clip-path: none
+      padding-top: unset
+      padding-right: 40px
+
+      .links
+        display: flex
+
+        a
+          padding: 0 16px
+          transition: all 300ms ease-in-out
+
+          &:hover
+            opacity: 80%
+
+    .menu
+      display: none
+
+  .hero
+    display: flex
+
+    .container
+
+      .cta-links
+
+        .link
+          transition: all 300ms ease-in-out
+
+          &:hover
+            background: #D9D0F8
+
+    .container
+      margin-bottom: 0
+
+  .portfolio
+
+    .project
+
+      .container-title
+        justify-content: unset
+
+        .icon,
+        .title
+          margin-bottom: 16px
+
+        .text
+          margin-bottom: 40px
+
+        .projects-btn
+          transition: all 300ms ease-in-out
+
+          &:hover
+            opacity: 80%
+
+      .img-container
+        flex: 2
+
+        img
+          object-fit: cover
+
+  .skills
+
+    .row
+      justify-content: unset
+
+      .col
+        margin-right: 80px
+
+        &:last-child
+          margin-right: 0
+
+@media screen and ( min-width: 1440px )
+  .navbar,
+  .hero,
+  .portfolio,
+  .skills,
+  .certificates,
+  .contact,
+  .footer
+    max-width: 1440px
+    margin: 0 auto
