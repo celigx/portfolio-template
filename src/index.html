@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <div class="container">
       <!-- Navbar -->
       <div class="navbar">
         <a href="#" class="brand">
@@ -35,16 +34,16 @@
       </div>
       <!-- Hero -->
       <div class="hero">
-        <div class="container-one">
+        <div class="container">
           <h1 class="greeting">Hello, my name's <br>Louis.</br></h1>
           <a href="#" class="email">hello@mail.com</a>
           <div class="cta-links">
-            <a href="#" class="button">Github</a>
-            <a href="#" class="button">Linkedin</a>
-            <a href="#" class="button">Dribbble</a>
+            <a href="#" class="link">Github</a>
+            <a href="#" class="link">Linkedin</a>
+            <a href="#" class="link">Dribbble</a>
           </div>
         </div>
-        <div class="container-two">
+        <div class="container">
           <svg class="blobs" width="666" height="600" viewBox="0 0 666 600" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M391.266 0.915718C467.036 3.38258 522.837 65.4627 573.675 121.7C621.113 174.178 661.786 233.457 665.345 304.108C669.081 378.284 643.58 451.46 593.027 505.869C540.604 562.292 468.002 605.673 391.266 599.096C318.424 592.853 274.382 524.351 221.36 474.015C165.903 421.366 85.7296 380.401 80.5445 304.108C75.2192 225.753 140.371 164.272 196.581 109.423C251.859 55.4848 314.074 -1.59747 391.266 0.915718Z" fill="#FFA6A6"/>
             <circle class="circle-big" cx="228.681" cy="321.29" r="222.915" stroke="#F9C85E" stroke-width="10" stroke-linecap="round" stroke-dasharray="22 22"/>
@@ -117,35 +116,38 @@
           <p class="subheading">Featured skills</p>
         </div>
 
-        <div class="container">
-          <h2 class="heading">Languages</h2>
-          <p class="item">HTML</p>
-          <p class="item">CSS</p>
-          <p class="item">Javascript</p>
-          <p class="item">Typescript</p>
+        <div class="row">
+          <div class="col">
+            <h2 class="heading">Languages</h2>
+            <p class="item">HTML</p>
+            <p class="item">CSS</p>
+            <p class="item">Javascript</p>
+            <p class="item">Typescript</p>
+          </div>
+
+          <div class="col">
+            <h2 class="heading">Frameworks</h2>
+            <p class="item">React Native</p>
+            <p class="item">Redux</p>
+          </div>
+
+          <div class="col">
+            <h2 class="heading">Libraries</h2>
+            <p class="item">React</p>
+            <p class="item">Node.js</p>
+            <p class="item">Sass</p>
+          </div>
+
+          <div class="col">
+            <h2 class="heading">Tools</h2>
+            <p class="item">VS Code</p>
+            <p class="item">Git</p>
+            <p class="item">Expo</p>
+            <p class="item">Gulp</p>
+            <p class="item">Figma</p>
+          </div>
         </div>
 
-        <div class="container">
-          <h2 class="heading">Frameworks</h2>
-          <p class="item">React Native</p>
-          <p class="item">Redux</p>
-        </div>
-
-        <div class="container">
-          <h2 class="heading">Libraries</h2>
-          <p class="item">React</p>
-          <p class="item">Node.js</p>
-          <p class="item">Sass</p>
-        </div>
-
-        <div class="container">
-          <h2 class="heading">Tools</h2>
-          <p class="item">VS Code</p>
-          <p class="item">Git</p>
-          <p class="item">Expo</p>
-          <p class="item">Gulp</p>
-          <p class="item">Figma</p>
-        </div>
       </div>
       <!-- Certificates -->
       <div class="certificates">
@@ -154,16 +156,18 @@
           <p class="subheading">Featured certificates</p>
         </div>
 
-        <div class="container">
-          <h2 class="heading">freeCodeCamp</h2>
-          <p class="item">Front End Libraries</p>
-          <p class="date">July 2022 - August 2022</p>
-        </div>
-
-        <div class="container">
-          <h2 class="heading">freeCodeCamp</h2>
-          <p class="item">Javascript Algorithms and Data Structures</p>
-          <p class="date">July 2022 - August 2022</p>
+        <div class="row">
+          <div class="col">
+            <h2 class="heading">freeCodeCamp</h2>
+            <p class="item">Front End Libraries</p>
+            <p class="date">July 2022 - August 2022</p>
+          </div>
+          
+          <div class="col">
+            <h2 class="heading">freeCodeCamp</h2>
+            <p class="item">Javascript Algorithms and Data Structures</p>
+            <p class="date">July 2022 - August 2022</p>
+          </div>
         </div>
       </div>
       <!-- Contact -->
@@ -183,7 +187,6 @@
         <img src="/assets/images/brand.svg" class="brand" alt="brand">
         <a href="https://github.com/celigx" class="github-link">© 2022 celigx</a>
       </div>
-    </div>
 
     <script src="js/index.js" type="text/Javascript"></script>
   </body>
