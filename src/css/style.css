@@ -123,10 +123,11 @@ a {
   position: relative;
 }
 .hero .container .blobs {
-  width: 280px;
+  width: 60%;
+  min-width: 280px;
   height: auto;
   position: absolute;
-  right: -50px;
+  right: -16px;
   bottom: -50px;
 }
 .hero .container .blobs .circle-big {
@@ -467,5 +468,117 @@ a {
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
+  }
+}
+@media screen and (min-width: 768px) {
+  .navbar .brand {
+    padding-left: 40px;
+  }
+  .navbar .menu {
+    padding-right: 18px;
+  }
+  .navbar .menu span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-width: 72px;
+    min-height: 72px;
+  }
+
+  .hero {
+    padding: 40px 40px;
+  }
+  .hero .container {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .hero .container .text,
+.hero .container .role {
+    font-size: 100px;
+  }
+  .hero .container .blobs {
+    min-width: 420px;
+    right: -40px;
+  }
+
+  .portfolio {
+    padding: 40px 40px;
+  }
+  .portfolio .project {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 280px;
+    max-height: 280px;
+  }
+  .portfolio .project .container-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    margin: 0 40px 0 0;
+  }
+  .portfolio .project .container-title .icon,
+.portfolio .project .container-title .title,
+.portfolio .project .container-title .text {
+    margin-bottom: 0;
+  }
+  .portfolio .project .img-container {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .portfolio .project .img-container img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .skills {
+    padding: 40px 40px;
+  }
+  .skills .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .certificates {
+    padding: 40px 40px;
+  }
+  .certificates .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .certificates .row .col {
+    margin: 0 80px 0 0;
+  }
+
+  .contact {
+    padding: 40px 40px;
+  }
+
+  .footer {
+    padding: 16px 40px;
   }
 }

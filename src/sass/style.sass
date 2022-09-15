@@ -116,10 +116,11 @@ a
       position: relative
 
     .blobs
-      width: 280px
+      width: 60%
+      min-width: 280px
       height: auto
       position: absolute
-      right: -50px
+      right: -16px
       bottom: -50px
 
       .circle-big
@@ -384,3 +385,83 @@ a
     transform: rotate(0deg)
   100%
     transform: rotate(360deg)
+
+// Tablet
+@media screen and ( min-width: 768px )
+  .navbar
+
+    .brand
+      padding-left: 40px
+
+    .menu
+      padding-right: calc( 40px - 22px )
+
+      span
+        display: flex
+        align-items: center
+        justify-content: center
+        min-width: 72px
+        min-height: 72px
+
+  .hero
+    padding: $padding-md
+
+    .container
+      flex: 1
+
+      .text,
+      .role
+        font-size: 100px
+
+      .blobs
+        min-width: 420px
+        right: -40px
+
+  .portfolio
+    padding: $padding-md
+
+    .project
+      display: flex
+      min-height: 280px
+      max-height: 280px
+
+      .container-title
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        flex: 1
+        margin: 0 40px 0 0
+
+        .icon,
+        .title,
+        .text
+          margin-bottom: 0
+
+      .img-container
+        flex: 1
+
+        img
+          height: 100%
+          object-fit: cover
+
+  .skills
+    padding: $padding-md
+
+    .row
+      display: flex
+      justify-content: space-between
+
+  .certificates
+    padding: $padding-md
+
+    .row
+      display: flex
+
+      .col
+        margin: 0 80px 0 0
+
+  .contact
+    padding: $padding-md
+
+  .footer
+    padding: 16px 40px
