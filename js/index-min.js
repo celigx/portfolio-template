@@ -1,0 +1,1 @@
+const toggleNavbar=()=>{document.querySelector(".links-container").classList.toggle("show"),document.querySelector("body").classList.toggle("no-scroll")};

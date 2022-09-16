@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <title>Portfolio Template</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/0f5ca3754d.js" crossorigin="anonymous"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+      <!-- Navbar -->
+      <div class="navbar" id="navbar">
+        <a href="#navbar" class="brand">
+          <img class="brand-img" src="assets/images/brand.svg" alt="brand">
+        </a>
+        <div class="links-container">
+          <div class="links">
+            <a href="#portfolio">Portfolio</a>
+            <a href="#skills">Skills</a>
+            <a href="#certificates">Certificates</a>
+            <a href="https://github.com/celigx" target="_blank" rel="noreferrer">Github</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <a href="#" class="menu" onclick='toggleNavbar()'>
+          <span class="material-symbols-rounded">menu</span>
+        </a>
+      </div>
+      <!-- Hero -->
+      <div class="hero" id="hero">
+        <div class="container">
+          <h1 class="greeting">Hello, my name's <br>Louis.</br></h1>
+          <a href="mailto: abc@example.com" class="email" >hello@mail.com</a>
+          <div class="cta-links">
+            <a href="https://github.com/celigx" class="link" target="_blank">Github</a>
+            <a href="https://linkedin.com" class="link" target="_blank">Linkedin</a>
+            <a href="https://dribbble.com" class="link" target="_blank">Dribbble</a>
+          </div>
+        </div>
+        <div class="container">
+          <svg class="blobs" width="666" height="600" viewBox="0 0 666 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M391.266 0.915718C467.036 3.38258 522.837 65.4627 573.675 121.7C621.113 174.178 661.786 233.457 665.345 304.108C669.081 378.284 643.58 451.46 593.027 505.869C540.604 562.292 468.002 605.673 391.266 599.096C318.424 592.853 274.382 524.351 221.36 474.015C165.903 421.366 85.7296 380.401 80.5445 304.108C75.2192 225.753 140.371 164.272 196.581 109.423C251.859 55.4848 314.074 -1.59747 391.266 0.915718Z" fill="#FFA6A6"/>
+            <circle class="circle-big" cx="228.681" cy="321.29" r="222.915" stroke="#F9C85E" stroke-width="10" stroke-linecap="round" stroke-dasharray="22 22"/>
+            <circle class="circle-small" cx="464.188" cy="125.06" r="17.2645" fill="#6DDDE7"/>
+            <rect class="rectangle" x="366.924" y="532.796" width="40.9005" height="40.9005" rx="6" fill="#7052E0"/>
+          </svg>
+          <h1 class="text">I'm a</h1>
+          <h1 class="role">Frontend <br>Developer<br></h1>
+        </div>
+      </div>
+      <!-- Portfolio -->
+      <div class="portfolio" id="portfolio">
+        <div class="container-heading">
+          <h1 class="heading">Portfolio.</h1>
+          <p class="subheading">Featured projects</p>
+        </div>
+
+        <div class="project p-one">
+          <div class="container-title">
+            <span class="material-symbols-rounded icon i-one">bolt</span>
+            <h1 class="title">Project 1</h1>
+            <p class="text">You are the last hope of the universe. You seem malnourished.</p>
+            <a href="#" class="projects-btn">See projects</a>
+          </div>
+          <div class="img-container">
+              <img src="https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=939&q=80" alt="ticket-tracker">
+          </div>
+        </div>
+
+        <div class="project p-two">
+          <div class="container-title">
+            <span class="material-symbols-rounded icon i-two">hive</span>
+            <h1 class="title">Project 2</h1>
+            <p class="text t-two">Ok, we'll go deliver this crate like professionals, and then we'll go ride the bumper cars.</p>
+            <a href="#" class="projects-btn">See projects</a>
+          </div>
+          <div class="img-container">
+              <img src="https://images.unsplash.com/photo-1520013817300-1f4c1cb245ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGFwZXIlMjBzaGlwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="ticket-tracker">
+          </div>
+        </div>
+
+        <div class="project p-three">
+          <div class="container-title">
+            <span class="material-symbols-rounded icon i-three">forest</span>
+            <h1 class="title">Project 3</h1>
+            <p class="text t-three">And remember, don't do anything that affects anything, unless it turns out you were supposed to.</p>
+            <a href="#" class="projects-btn">See projects</a>
+          </div>
+          <div class="img-container">
+              <img src="https://images.unsplash.com/photo-1506619216599-9d16d0903dfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvZmZlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="ticket-tracker">
+          </div>
+        </div>
+
+        <div class="project p-four">
+          <div class="container-title">
+            <span class="material-symbols-rounded icon i-four">rocket</span>
+            <h1 class="title">Project 4</h1>
+            <p class="text t-four">Oh, I don't have time for this. I have to go and buy a single piece of fruit.</p>
+            <a href="#" class="projects-btn">See projects</a>
+          </div>
+          <div class="img-container">
+              <img src="https://images.unsplash.com/photo-1531736275454-adc48d079ce9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="ticket-tracker">
+          </div>
+        </div>
+      </div>
+      <!-- Skills -->
+      <div class="skills" id="skills">
+        <div class="container-heading">
+          <h1 class="heading">Skills.</h1>
+          <p class="subheading">Featured skills</p>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <h2 class="heading">Languages</h2>
+            <p class="item">HTML</p>
+            <p class="item">CSS</p>
+            <p class="item">Javascript</p>
+            <p class="item">Typescript</p>
+          </div>
+
+          <div class="col">
+            <h2 class="heading">Frameworks</h2>
+            <p class="item">React Native</p>
+            <p class="item">Redux</p>
+          </div>
+
+          <div class="col">
+            <h2 class="heading">Libraries</h2>
+            <p class="item">React</p>
+            <p class="item">Node.js</p>
+            <p class="item">Sass</p>
+          </div>
+
+          <div class="col">
+            <h2 class="heading">Tools</h2>
+            <p class="item">VS Code</p>
+            <p class="item">Git</p>
+            <p class="item">Expo</p>
+            <p class="item">Gulp</p>
+            <p class="item">Figma</p>
+          </div>
+        </div>
+
+      </div>
+      <!-- Certificates -->
+      <div class="certificates" id="certificates">
+        <div class="container-heading">
+          <h1 class="heading">Certificates.</h1>
+          <p class="subheading">Featured certificates</p>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <h2 class="heading">freeCodeCamp</h2>
+            <p class="item">Front End Libraries</p>
+            <p class="date">July 2022 - August 2022</p>
+          </div>
+          
+          <div class="col">
+            <h2 class="heading">freeCodeCamp</h2>
+            <p class="item">Javascript Algorithms and Data Structures</p>
+            <p class="date">July 2022 - August 2022</p>
+          </div>
+        </div>
+      </div>
+      <!-- Contact -->
+      <div class="contact" id="contact">
+        <h1 class="heading">Contact.</h1>
+        <h2 class="email">hello@email.com</h2>
+        <p class="phone">+385 91 0000 000</p>
+
+        <div class="links">
+          <a href="https://github.com/celigx" target="_blank" class="link"><i class="fa-brands fa-github"></i></a>
+          <a href="https://dribbble.com" target="_blank" class="link"><i class="fa-brands fa-dribbble"></i></a>
+          <a href="https://linkedin.com" target="_blank" class="link"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class="footer">
+        <img src="/assets/images/brand.svg" class="brand" alt="brand">
+        <a href="https://github.com/celigx" class="github-link">© 2022 celigx</a>
+      </div>
+
+    <script src="js/index.js" type="text/Javascript"></script>
+  </body>
+</html>
