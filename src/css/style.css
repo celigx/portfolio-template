@@ -639,6 +639,9 @@ a {
     display: -ms-flexbox;
     display: flex;
   }
+  .hero .container {
+    margin-bottom: 0;
+  }
   .hero .container .cta-links .link {
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
@@ -646,8 +649,8 @@ a {
   .hero .container .cta-links .link:hover {
     background: #D9D0F8;
   }
-  .hero .container {
-    margin-bottom: 0;
+  .hero .container .blobs {
+    width: 80%;
   }
 
   .portfolio .project .container-title {
