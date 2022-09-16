@@ -1,7 +1,7 @@
 {
   "name": "portfolio-template",
   "homepage": "https://celigx.github.io/portfolio-template",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "web page",
   "main": "gulpfile.js",
   "scripts": {
